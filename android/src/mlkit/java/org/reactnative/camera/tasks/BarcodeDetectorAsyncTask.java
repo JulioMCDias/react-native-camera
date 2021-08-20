@@ -51,7 +51,7 @@ public class BarcodeDetectorAsyncTask extends android.os.AsyncTask<Void, Void, V
     mImageData = imageData;
     mWidth = width;
     mHeight = height;
-    mRotation = 270;
+    mRotation = 90;
     mDelegate = delegate;
     mBarcodeDetector = barcodeDetector;
     mImageDimensions = new ImageDimensions(width, height, mRotation, facing);
